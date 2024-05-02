@@ -1,0 +1,71 @@
+/* Write your CSS code here */
+.login-form-image {
+  width: 400px;
+}
+.login-form-main-container {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+}
+.login-form-form-container {
+  width: 300px;
+  margin-left: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-shadow: 10px 10px 8px 10px #888888;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-form-logo {
+  width: 140px;
+}
+.login-form-logo-container {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.login-form-image-container {
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+.login-username-field {
+  margin-bottom: 12px;
+}
+.login-password-field {
+  margin-bottom: 12px;
+}
+.login-label {
+  font-size: 9px;
+}
+.login-input-feild {
+  padding-left: 6px;
+  padding-right: 4px;
+  outline: none;
+  font-size: 14px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #e6f6ff;
+  border: 1px solid #475569;
+}
+.login-form-button {
+  width: 188px;
+  padding: 6px;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.error-msg {
+  font-size: 12px;
+  color: red;
+}

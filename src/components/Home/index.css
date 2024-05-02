@@ -1,0 +1,40 @@
+/* Write your CSS code here */
+.home-content-container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.home-image-container {
+  width: 50%;
+  text-align: center;
+}
+.home-image {
+  width: 60%;
+}
+.home-text-container {
+  padding: 20px;
+  width: 50%;
+}
+.home-heading-text {
+  font-size: 47px;
+  color: #1e293b;
+  margin-bottom: 0px;
+}
+.home-description-text {
+  font-size: 18px;
+  color: #475569;
+}
+.home-text-button {
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: none;
+  background-color: #0967d2;
+  border-radius: 6px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
